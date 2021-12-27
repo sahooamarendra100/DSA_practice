@@ -13,14 +13,12 @@ def findFirstOccurrence(nums, target):
     return result
  
  
-if __name__ == '__main__':
- 
-    nums = [10,10,10,20,20,20,20,40]
-    target = 20
- 
-    index = findFirstOccurrence(nums, target)
- 
-    if index != -1:
-        print(index)
-    else:
-    	print("-1")
+nums = [10,10,10,20,20,20,20,40]
+target = 20
+
+index = findFirstOccurrence(nums, target)
+
+if index != -1:
+    print(index)
+else:
+    print("-1")

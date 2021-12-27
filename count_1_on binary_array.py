@@ -12,11 +12,8 @@ def findFirstOccurrence(nums, target):
             left = mid + 1
     return result
  
- 
-if __name__ == '__main__':
- 
-    nums = [0,0,1,1,1,1]
-    target = 1
-    index_1 = findFirstOccurrence(nums, target)
-    count_1 =len(nums)-index_1
-    print(count_1)
+nums = [0,0,1,1,1,1]
+target = 1
+index_1 = findFirstOccurrence(nums, target)
+count_1 =len(nums)-index_1
+print(count_1)
